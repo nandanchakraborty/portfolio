@@ -1,0 +1,16 @@
+export const skills = [
+  "Node.js",
+  "Express.js",
+  "JavaScript",
+  "TypeScript",
+  "PostgreSQL",
+  "Prisma",
+  "MongoDB",
+  "Redis",
+  "BullMQ",
+  "Docker",
+  "JWT",
+  "Git",
+  "GitHub",
+  "Swagger",
+];
