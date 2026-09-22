@@ -28,16 +28,29 @@ export default function Projects() {
 							))}
 						</div>
 
-						{project.githubUrl ? (
-							<a
-								href={project.githubUrl}
-								target="_blank"
-								rel="noreferrer"
-								className="inline-block mt-6 text-cyan-400 hover:text-cyan-300"
-							>
-								View on GitHub
-							</a>
-						) : null}
+						<div className="mt-6 flex flex-wrap gap-4">
+							{project.liveUrl ? (
+								<a
+									href={project.liveUrl}
+									target="_blank"
+									rel="noreferrer"
+									className="inline-block text-cyan-400 hover:text-cyan-300"
+								>
+									Live Demo
+								</a>
+							) : null}
+
+							{project.githubUrl ? (
+								<a
+									href={project.githubUrl}
+									target="_blank"
+									rel="noreferrer"
+									className="inline-block text-cyan-400 hover:text-cyan-300"
+								>
+									View on GitHub
+								</a>
+							) : null}
+						</div>
 					</div>
 				))}
 			</div>

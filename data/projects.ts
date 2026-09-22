@@ -1,5 +1,14 @@
 export const projects = [
 	{
+		title: "Real-Time White Board",
+		description:
+			"Collaborative digital whiteboard with live drawing and real-time teamwork features.",
+		tech: ["Next.js", "Socket.IO", "React", "Node.js"],
+		githubUrl: "https://github.com/nandanchakraborty/Real-Time-WhiteBoard",
+		liveUrl: "https://real-time-whiteboard-a4hd.onrender.com/",
+	},
+
+	{
 		title: "Learning Management System",
 		description:
 			"Role-based LMS with student enrollment, assignments and progress tracking.",
