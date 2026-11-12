@@ -1,9 +1,9 @@
 export const projects = [
 	{
-		title: "Real-Time White Board",
+		title: "Real-Time Whiteboard",
 		description:
-			"Collaborative digital whiteboard with live drawing and real-time teamwork features.",
-		tech: ["Next.js", "Socket.IO", "React", "Node.js"],
+			"Collaborative browser-based whiteboard with live drawing, text annotations, shared boards, and JWT-authenticated teamwork.",
+		tech: ["Node.js", "Express", "Socket.IO", "Prisma", "PostgreSQL", "JWT"],
 		githubUrl: "https://github.com/nandanchakraborty/Real-Time-WhiteBoard",
 		liveUrl: "https://real-time-whiteboard-a4hd.onrender.com/",
 	},
